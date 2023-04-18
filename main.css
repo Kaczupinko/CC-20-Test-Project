@@ -13,7 +13,7 @@ header {
     background-color: #333;
     padding: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color: #ffffff;
 }
@@ -99,4 +99,8 @@ footer {
     text-align: center;
     color: #ffffff;
     margin-top: 30px;
+}
+
+.panel {
+    justify-content: right;
 }
