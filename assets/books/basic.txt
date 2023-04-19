@@ -1,0 +1,15 @@
+Lekcja 1: Warunki i pętle
+
+W programowaniu warunki i pętle są jednymi z podstawowych elementów.W tej lekcji przedstawimy kilka podstawowych konstrukcji warunkowych i pętli, które pozwolą Ci pisać bardziej zaawansowane programy.
+
+Warunek if
+Warunek if to podstawowa konstrukcja programistyczna, która pozwala na wykonanie określonych działań tylko wtedy, gdy spełniony zostanie pewien warunek.Oto przykład:
+
+javascript
+Copy code
+var liczba = 10;
+
+if (liczba > 5) {
+    console.log("Liczba jest większa od 5.");
+}
+W powyższym przykładzie, jeśli wartość zmiennej "liczba" jest większa niż 5, zostanie wyświetlona wiadomość "Liczba jest większa od 5.".
