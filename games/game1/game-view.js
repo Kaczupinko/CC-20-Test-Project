@@ -6,6 +6,6 @@ export class GameView {
   }
 
   updateTaskDescription() {
-    this.taskDescription.textContent = this.model.getCurrentTask().description;
+    this.taskDescription.textContent = this.model.getCurrentTaskDescription();
   }
 }
