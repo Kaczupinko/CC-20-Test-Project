@@ -8,5 +8,4 @@ function gameInit() {
   const gameView = new GameView(gameModel)
   const gameController = new GameController(gameView, gameModel)
 }
-
-gameInit()
+document.addEventListener('DOMContentLoaded', gameInit)
